@@ -1,0 +1,8 @@
+thingsForOf:
+<% for (thing of things) { -%>
+  firstThing: <%= thing.firstThing %>
+<% } -%>
+thingsForEach:
+<% things.forEach(function (thing) { -%>
+  <%- include('thing-include.ejs', { thing: thing }); %>
+<% }); -%>

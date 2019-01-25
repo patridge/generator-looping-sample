@@ -1,0 +1,25 @@
+{
+  "name": "generator-looping-sample",
+  "version": "0.1.0",
+  "description": "Yeoman generator sample showing ESJ looping options in templates.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patridge/generator-looping-sample.git"
+  },
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "author": {
+    "name": "Adam Patridge",
+    "url": "https://github.com/patridge"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/patridge/generator-looping-sample/issues"
+  },
+  "homepage": "https://github.com/patridge/generator-looping-sample#readme",
+  "dependencies": {
+    "yeoman-generator": "^3.1.1",
+    "yosay": "^2.0.2"
+  }
+}
